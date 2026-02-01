@@ -1,4 +1,6 @@
-  ## 📌 Problem Statement
+ # DAY1| PYTHON CODING 
+ 
+ ## 📌 Problem Statement
 Given an array of integers `nums` and an integer `target`, return the **indices of the two numbers** such that their sum is equal to `target`.
 
 Constraints:
