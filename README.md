@@ -1,19 +1,24 @@
-# Day 1 – Two Sum 🧩  
-**ABtalks 60 Days Code Challenge**
+# Day 1 – Python Basics 🐍
 
-## 📌 Problem Statement
-Given an array of integers `nums` and an integer `target`, return the **indices of the two numbers** such that they add up to `target`.
+## 📌 Overview
+Day 1 focuses on getting started with Python. We cover basic concepts, setup, and writing your first Python programs.
 
-You may assume that:
-- Each input will have **exactly one solution**
-- You **cannot use the same element twice**
-- Order of output does not matter
+## 🛠️ Topics Covered
+- What is Python?
+- Installing Python
+- Running Python scripts
+- Python syntax
+- Variables and data types
+- Basic input and output (`print`, `input`)
+- Simple arithmetic operations
 
-## 🧠 Approach
-- Ek dictionary (hash map) use ki
-- Har element ke liye check kiya:
-  - `target - current_number` pehle se map me hai ya nahi
-- Agar mil jaye, to dono indices return kar diye
-- Time complexity optimized rakhi
+## 📂 Files in This Folder
+- `hello.py` – Your first Python program
+- `variables.py` – Examples of variables and data types
+- `input_output.py` – Using input and print statements
 
-## 🧪 Example
+## ▶️ How to Run the Code
+Make sure Python is installed on your system.
+
+```bash
+python filename.py
