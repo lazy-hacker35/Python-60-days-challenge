@@ -1,24 +1,29 @@
-# Day 1 – Python Basics 🐍
+  ## 📌 Problem Statement
+Given an array of integers `nums` and an integer `target`, return the **indices of the two numbers** such that their sum is equal to `target`.
 
-## 📌 Overview
-Day 1 focuses on getting started with Python. We cover basic concepts, setup, and writing your first Python programs.
+Constraints:
+- Each input has **exactly one valid solution**
+- You may **not use the same element twice**
+- The order of the output does not matter
 
-## 🛠️ Topics Covered
-- What is Python?
-- Installing Python
-- Running Python scripts
-- Python syntax
-- Variables and data types
-- Basic input and output (`print`, `input`)
-- Simple arithmetic operations
+---
 
-## 📂 Files in This Folder
-- `hello.py` – Your first Python program
-- `variables.py` – Examples of variables and data types
-- `input_output.py` – Using input and print statements
+## 🧠 Approach
+- Use a dictionary (hash map) to store numbers and their indices
+- Traverse the array once
+- For each element:
+  - Calculate the required value as `target - current_number`
+  - Check if this value already exists in the hash map
+- If it exists, return the indices of the current number and the stored number
+- Otherwise, store the current number with its index in the map
 
-## ▶️ How to Run the Code
-Make sure Python is installed on your system.
+This approach avoids nested loops and improves efficiency.
 
-```bash
-python filename.py
+---
+
+## ⏱️ Time & Space Complexity
+- **Time Complexity:** O(n)  
+  (Each element is processed once)
+
+- **Space Complexity:** O(n)  
+  (Extra space used for the hash map)
